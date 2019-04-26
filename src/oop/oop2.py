@@ -35,9 +35,9 @@ print(test.drive())
 vehicles = [
     GroundVehicle(),
     GroundVehicle(),
-    Motorcycle(),
+    Motorcycle(2),
     GroundVehicle(),
-    Motorcycle(),
+    Motorcycle(2),
 ]
 
 # Go through the vehicles list and print the result of calling drive() on each.
